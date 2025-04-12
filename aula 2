@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabelas e Listas</title>
+        <link rel="stylesheet" href="estilo.css">
+
+        <style>
+            body{
+                background: linear-gradient(to left, #daec36,#8b9720); 
+            }
+        </style>
+        
+
+
+
+
+
+        
+    </head>
+
+    <body>
+        <header>
+            <p>Bem Vindo</p>
+            <ul class="navbar">Home</ul>
+            <ul class="navbar">Sobre</ul>
+            <ul class="navbar">Contato</ul>
+            <ul class="navbar">Ajuda</ul>
+        </header>
+
+        <div class="introducao">
+            <h1>Intrudução</h1>
+            <p class="p-intro">Paragrafo de Introdução</p>
+        </div>
+
+        <div class="descricao">
+            <h1>Descrição</h1>
+            <p class="p-descricao">Paragrafo de Introdução</p>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Sexo</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                    <td>F</td>
+                </tr>
+
+                <tr>
+                    <td>Joao</td>
+                    <td>30</td>
+                    <td>M</td>
+                </tr>
+
+                <tr>
+                    <td>Jose</td>
+                    <td>37</td>
+                    <td>M</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <dl>
+            <dt>Professor</dt>
+            <dd>Sofre em silêncio porém feliz</dd>
+        </dl>
+
+        <dl>
+            <dt>Lista descrtiva não ordenada</dt>
+            <dd>
+                <ul>
+                    <li>A1</li>
+                    <li>A2</li>
+                    <li>A3</li>
+                </ul>
+            </dd>
+        </dl>
+    </body>
+</html>
